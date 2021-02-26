@@ -4,6 +4,14 @@
     margin: auto;
 }
 
+body {
+    font-family: "Raleway";
+}
+
+.products img {
+    width: 100%;
+}
+
 /* HEADER */
 /* Logo */
 .logo {
@@ -73,4 +81,30 @@
 
 .teaser h1 {
     font-size: 40px;
+}
+
+/* MAIN */
+/* Products */
+.product {
+    padding: 20px;
+}
+
+.col_inner {
+    margin-top: 40px;
+}
+
+
+.product-text {
+    text-align: center;
+    background-color: #fafafa;
+    line-height: 50px;
+    padding-top: 50px;
+}
+
+.product-text h2 {
+    font-size: 30px;
+}
+
+.product-text a {
+    text-decoration: none;
 }
