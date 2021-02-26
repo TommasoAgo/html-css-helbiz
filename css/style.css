@@ -1,0 +1,40 @@
+/* COMMON */
+.small-wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* HEADER */
+/* Logo */
+.logo {
+    padding: 20px 0;
+}
+/* Menu */
+.left-menu> li,
+.lang-menu> li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px;
+    line-height: 38px;
+}
+
+.left-menu> li> a,
+.lang-menu> li> a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+.left-menu {
+    text-align: right;
+}
+
+/* Lang Menu */
+.lang-menu 
+
+/* Burger Menu */
+.burger-menu .fas {
+    text-align: center;
+    padding: 20px;
+}
