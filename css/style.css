@@ -84,7 +84,7 @@ body {
 }
 
 /* MAIN */
-/* Products */
+/* Products Section */
 .product {
     padding: 20px;
 }
@@ -107,4 +107,19 @@ body {
 
 .product-text a {
     text-decoration: none;
+}
+
+/* Phone Section */
+.phone {
+    height: 400px;
+    background-image: url(../img/HelbizBanner.jpg);
+    background-size: cover;
+}
+
+#phone-img img {
+    height: 600px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 100px;
 }
