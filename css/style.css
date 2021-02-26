@@ -31,9 +31,14 @@
 }
 
 /* Lang Menu */
-.lang-menu 
+
 
 /* Burger Menu */
 .burger-menu {
     text-align: right;
+    padding: 20px 20px; 
+}
+
+.burger-menu i {
+    font-size: 20px;
 }
