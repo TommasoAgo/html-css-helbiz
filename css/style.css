@@ -34,7 +34,6 @@
 .lang-menu 
 
 /* Burger Menu */
-.burger-menu .fas {
-    text-align: center;
-    padding: 20px;
+.burger-menu {
+    text-align: right;
 }
