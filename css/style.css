@@ -14,8 +14,7 @@
 .lang-menu> li {
     display: inline-block;
     list-style-type: none;
-    padding: 8px;
-    line-height: 38px;
+    line-height: 10px;
 }
 
 .left-menu> li> a,
@@ -24,19 +23,31 @@
     text-decoration: none;
     color: black;
     font-size: 10px;
+    padding: 0 9px;
+    display: inline-block;
 }
 
 .left-menu {
     text-align: right;
 }
 
-/* Lang Menu */
+.left-menu, .lang-menu {
+    padding-top: 20px;
+}
 
+/* Lang Menu */
+.lang-menu li {
+    border-right: 1px solid black;
+} 
+
+.lang-menu li:last-child {
+    border-right: none;
+}
 
 /* Burger Menu */
 .burger-menu {
     text-align: right;
-    padding: 20px 20px; 
+    padding: 20px; 
 }
 
 .burger-menu i {
