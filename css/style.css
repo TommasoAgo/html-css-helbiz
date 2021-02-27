@@ -12,6 +12,10 @@ body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* HEADER */
 /* Logo */
 .logo {
@@ -28,7 +32,6 @@ body {
 .left-menu> li> a,
 .lang-menu> li> a {
     text-transform: uppercase;
-    text-decoration: none;
     color: black;
     font-size: 10px;
     padding: 0 9px;
@@ -83,6 +86,7 @@ body {
     font-size: 40px;
 }
 
+
 /* MAIN */
 /* Products Section */
 .product {
@@ -109,17 +113,72 @@ body {
     text-decoration: none;
 }
 
-/* Phone Section */
+/* Info Section */
 .phone {
     height: 400px;
     background-image: url(../img/HelbizBanner.jpg);
     background-size: cover;
 }
 
-#phone-img img {
+.phone img{
     height: 600px;
     display: block;
     margin: auto;
     position: relative;
     top: 100px;
+}
+
+
+
+/* Info Responsive */
+
+/* XS, MD */
+@media all and (max-width: 991px) {
+    .info-box {
+        padding-top: 200px;
+    }
+
+    .info-text {
+        text-align: left;
+        font-size: 25px;
+        padding: 50px 30px;
+    }
+}
+
+/* LG */
+@media all and (min-width: 992px) {
+    .info-text {
+        padding: 100px;
+        text-align: center;
+    }
+}
+
+/* Smart mob */
+.smart-mob {
+    margin: 50px 0;
+}
+
+.smart-jumbo {
+    height: 400px;
+    background-image: url(../img/ScooterHelbiz-2400.jpg);
+    background-size: cover;
+}
+
+.smart-jumbo-text {
+    color: white;
+    padding: 15%;
+    text-align: right;
+}
+
+.smart-jumbo-text h2 {
+    font-size: 25px;
+}
+
+.smart-jumbo-text p {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.smart-jumbo-text a {
+    color: white;
 }
