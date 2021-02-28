@@ -295,7 +295,37 @@ footer {
     line-height: 30px;
 }
 
+.footer-info {
+    padding-bottom: 40px;
+}
 
+/* Footer Social Logos */
+.social-logos ul li {
+    display: inline-block;
+    padding-right: 4px;
+}
+
+.social-logos ul li> a {
+    color: white;
+}
+
+/* Terms & Conditions */
+.terms-cond a {
+    color: white;
+    font-size: 12px;
+}
+
+.social-terms {
+    padding: 30px 0;
+    border-top: 1px solid #767676;
+    border-bottom: 1px solid #767676;
+}
+
+/* Footer Social Links */
+.footer-social-links {
+    text-align: center;
+    padding: 20px;
+}
 
 
 
