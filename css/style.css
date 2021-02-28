@@ -69,6 +69,10 @@ li {
     font-size: 20px;
 }
 
+.burger-menu a {
+    color: black;
+}
+
 /* Jumbotron */
 .jumbotron {
     height: 550px;
