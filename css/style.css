@@ -21,6 +21,9 @@ li {
 }
 
 /* HEADER */
+.top-nav {
+    padding: 10px;
+}
 /* Logo */
 .logo {
     padding: 20px 0;
@@ -111,6 +114,10 @@ li {
     background-color: #fafafa;
     line-height: 50px;
     padding-top: 50px;
+} 
+
+.product-text a {
+    color: blue;
 }
 
 .product-text h2 {
